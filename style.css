@@ -1,1 +1,17 @@
+body {
+  background-color: #D6EAF8;
+  color: #212F3D;
+  font-family: Cambria, Georgia, sans-serif;
+  margin: 10% 10%; 
+}
 
+.exp-header {
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #212F3D;
+  border-bottom: 1px solid #212F3D;
+  background-color: rgba(180, 180, 171, 0.5)
+}
+p.indent{
+  text-indent: 70px;
+}
