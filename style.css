@@ -16,13 +16,6 @@ p.indent{
   text-indent: 10px;
 }
 
-}
-p.indent{
-  text-indent: 10px;
-}
-
-
-
 /*body {
     min-width: 500px;
 }*/
@@ -38,8 +31,6 @@ div {
   position: fixed;
   z-index: 1;
 }
-
-
 
 #footer {
   height: 50px;
@@ -60,7 +51,6 @@ div {
 p.indent {
  text-indent: -5px
 }
-
 
 #name {
   font-family: Cambria;
