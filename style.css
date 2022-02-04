@@ -15,3 +15,56 @@ body {
 p.indent{
   text-indent: 10px;
 }
+
+}
+p.indent{
+  text-indent: 10px;
+}
+
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 10px;
+}
+
+#header {
+  height: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+}
+
+
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  clear: both;
+  position: relative;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: -140px;
+  width: 200%;
+  height: 1000px;
+}
+
+p.indent {
+ text-indent: -5px
+}
+
+
+#name {
+  font-family: Cambria;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
