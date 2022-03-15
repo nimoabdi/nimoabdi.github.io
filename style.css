@@ -1,72 +1,95 @@
-body {
-  background-color: #D6EAF8;
-  color: #212F3D;
-  font-family: Cambria, Georgia, sans-serif;
-  margin: 10% 10%; 
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nimo Abdi</title>
+  <link rel="stylesheet" href="style.css" /> 
+</head> 
+<body>
+ 
+  <h1>Nimo Abdi</h1>
+  
+    
+    <p class="indent">
+      “An essential aspect of creativity is not being afraid to fail.” 
+    </p>
+ 
+  </div>
 
-.exp-header {
-  text-align: center;
-  text-transform: uppercase;
-  border-top: 1px solid #212F3D;
-  border-bottom: 1px solid #212F3D;
-  background-color: rgba(180, 180, 171, 0.5)
-}
-p.indent{
-  text-indent: 10px;
-}
+  <div class="exp-header">
+  <h3>Professional Experience<h/3>
+    </div>
+    <h4>Walmart</h4>
+    <h5>Electronics Associate</h5>
+    <h6>Dec 2019 - Jan 2021</h6>
+    
+    <ul>
+      <li>Worked with coworkers to help customers with their needs</li>
+      <li>Investigated and resolved customer issues</li>
+      <li>Profficient in excel</li>
+      <li>Used my knowldge on up to date tech servies to help people</li>
+    </ul>
+    </div>
+    <div class="exp-header">
+  <h3>Professional Experience Cont.<h/3>
+    </div>
+    <h4>Target</h4>
+    <h5>Sales Associate</h5>
+    <h6>June 2016 - March 2017</h6>
+    </div>
+    
+    <style>
+      ul {
+        margin: 0;
+      }
+      ul.dashed {
+        list-style-type: none;
+      }
+      ul.dashed > li {
+        text-indent: -20px;
+      }
+      ul.dashed > li:before {
+        content: "-";
+        text-indent: -20px;
+      }
+    </style>
+  
+    <ul class="dashed">
+      <li> Interface with customers to identify purchasing needs</li>
+      <li> Cashier</li>
+      <li> Reccomended aditional products or cost effective alternatives</li>
+    </ul>
+    
+    
+    <div class="exp-header">
+  <h3>Professional Experience Cont.<h/3>
+    </div>
+    <h4>Childrens Hospital</h4>
+    <h5>Unit Operations Coordinator</h5>
+    <h6>April 2021 - January 2022</h6>
+    
+    <ul>
+      <li>Performed administrative and clerical tasks</li>
+      <li>Responsible for providing quality care for patients</li>
+      <li>Collaborate and consult with RN and other members on the medical floor</li>
+    </ul>
+    
+    <div class="exp-header">
+  <h3>Education History</h3>
+    </div>
+      <h4>Stillwater Area High school</h4>
+      <p> Graduated June 2017</p>
+      <h4> Inver Hills Community College</h4>
+      <p> Associate in Nursing</p>
+      
+    </div>
+    
+    <div1 class="sidebar">
 
-/*body {
-    min-width: 500px;
-}*/
+</div>
 
-div {
-  border-radius: 10px;
-}
-
-#header {
-  height: 10px;
-  width: 100%;
-  background-color: #ffffff;
-  position: fixed;
-  z-index: 1;
-}
-
-#footer {
-  height: 50px;
-  width: 100%;
-  background-color: #ffffff;
-  clear: both;
-  position: relative;
-}
-
-.stuff {
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: -1px;
-  width: 100%;
-  height: 1000px;
-}
-
-p.indent {
- text-indent: -5px
-}
-
-#name {
-  font-family: Cambria;
-  float: right;
-  margin-top: 10px;
-  margin-right: 4%;
-}
-
-body {
-  --stripe: #cfd8dc;
-  --bg: #e1e1e1;
-
-  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
-    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
-  background-size: 100px 100px;
-  background-color: var(--stripe);
-}
+   
+     
+</body>
+</html>
