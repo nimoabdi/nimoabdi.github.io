@@ -2,7 +2,7 @@ body {
   
   color: #000000;
   font-family: Georgia, Verdana, sans-serif;
-  margin-left: 180px; 
+  margin-left: 245px; 
   background-color: rgba(250, 240, 230)
 }
 
@@ -65,7 +65,7 @@ div{
 
 .sidebar {
 height: 220%;
-width: 160px;
+width: 170px;
 position: absolute;
 left: 0;
 top: 0;
@@ -89,4 +89,26 @@ body {
   background-position: right top;
   margin-right: 200px;
   background-attachment: fixed;
+}
+
+
+img{
+  position: relative;
+  top: -38px
+  
+}
+
+
+
+img{
+  width: 100%
+   
+}
+
+img{
+  height: 200px
+}
+
+img{
+  border-radius: 100%
 }
